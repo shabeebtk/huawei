@@ -1,0 +1,392 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: system-ui;
+}
+
+.top_navbar{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20vh;
+    column-gap: 2em;
+    font-size: small;
+}
+
+.navbar{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+}
+
+.nav_links{
+    display: flex;
+    column-gap: 5vh;
+    font-size: 15px;
+    padding-right: 8vh;
+}
+
+.nav_links > a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_icons{
+    padding-left: 10px;
+    height: 1.5em;
+}
+
+.carousel{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/banner/7/p60.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: end;
+    padding-bottom: 20vh;
+}
+
+.learn_more_button{
+    height: 6vh;
+    width: 27vh;
+    background-color: transparent;
+    border: solid 1px;
+}
+
+.learn_more_button:hover{
+    background-color: red;
+    color: white;
+}
+
+.whats_new_text{
+    text-align: center; 
+    padding-top: 10vh;
+}
+
+.whats_new_text:before{
+        content: "";
+        position: absolute;
+        width: 5%;
+        height: 1px;
+        bottom: 0;
+        left: 48%;
+        top: 103vh;
+        border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.whats_new_main{
+    display: flex;
+    justify-content: center;
+}
+
+.whats_new_images{
+    padding-top: 10vh;
+    height: 150vh;
+    width: 85%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5vh;
+}
+
+.image1{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/watch-ultimate-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/5;
+    grid-column: 1/8;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image2{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/mate-x3-en.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/5;
+    grid-column: 8/13;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image3{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/kubuqi-desert-solar-p4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 5/9;
+    grid-column: 1/4;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image4{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/100-stories-france-en-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 5/9;
+    grid-column: 4/13;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image5{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/55g-core.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 9/12;
+    grid-column: 1/4;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image6{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/mrp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 9/12;
+    grid-column: 4/9;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image7{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/3/tech-wellbeing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 9/12;
+    grid-column: 9/13;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.section_2{
+    height: 70vh;
+    width: 100%;
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/images/tech4all/home/slides/digital-inclusive-home-pc.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.section_2 > div > button{
+    height: 6vh;
+    width: 27vh;
+    background-color: transparent;
+    border: solid 1px;
+    margin-bottom: 15vh;
+    margin-left: 15vh;
+}
+
+.section_2 > div > button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.section_3{
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+}
+
+.news_and_events{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vh;
+    padding-top: 10vh;
+}
+
+.news_card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    background-color: #f8f8f8;
+}
+
+.news_icon{
+    height: 1em;
+}
+
+.news_card2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+}
+
+.news_card2 > div:hover{
+    color: red;
+}
+
+.news_buttons_div{
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+}
+
+.news_buttons_div > button{
+    height: 6vh;
+    width: 27vh;
+    background-color: transparent;
+    border: solid 1px;
+}
+
+.news_buttons_div > button:hover{
+    background-color: red;
+    color: white;
+}
+
+.footer_main{
+    margin-top: 10vh;
+    height: 80vh;
+    background-color: #f8f8f8;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_sub{
+    width: 85%;   
+}
+
+.footer_inp_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_div{
+    background-color: white;
+    height: 6vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    border: inset 1px;
+    column-gap: 2vh;
+    
+}
+
+.footer_input{
+    font-size: large;
+    height: 6vh;
+    width: 40vh;
+    outline: none;
+    border: none;
+    padding-left: 3vh;
+}
+
+.footer_links_main{
+    margin-top: 2vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-top: inset 1px #333333;
+    border-bottom: inset 1px #333333;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    font-size: 14px;
+
+}
+
+.footer_links > a{
+    text-decoration: none;
+    /* color: #595757; */
+    color: #333333;
+}
+
+.footer_links > h5{
+    position: relative;
+    bottom: 3vh;
+}
+
+.footer_end_main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_end_sub{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer_end_links{
+    display: flex;
+    column-gap: 3vh;
+    color: #333333;
+    font-size: 14px;
+}
+
+.social_links{
+    display: flex;
+    column-gap: 3vh
+}
+
+.footer_end{
+    margin-top: 5vh;
+    background-color: #e6e6e6;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 4vh;
+    align-items: center;
+    color: #333333;
+    font-size: 14px;
+}
